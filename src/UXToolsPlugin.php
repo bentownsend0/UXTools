@@ -98,12 +98,6 @@ class UXToolsPlugin
             $breakdown .= $images;
         }
 
-        $shortcodes = substr_count($post->post_content, '[/') + substr_count($post->post_content, '/]') - $images;
-        if ($images > 0) {
-            $breakdown .= '<br /> Images: ';
-            $breakdown .= $images;
-        }
-
         $allElements = $HTML->getElementsByTagName('*');
         $breakdown .= '<br /> Total Elements: ';
         $breakdown .= $allElements->length;
