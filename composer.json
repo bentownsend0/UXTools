@@ -1,0 +1,19 @@
+{
+  "autoload": {
+    "psr-4": {
+      "UXTools\\":"src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "UXTools\\Test\\":"tests/src"
+    }
+  },
+  "repositories": [],
+  "require": {},
+  "require-dev": {
+    "squizlabs/php_codesniffer": "2.*",
+    "psy/psysh": "~0.6",
+    "phpunit/phpunit": "5.5.*"
+  }
+}
